@@ -1,0 +1,48 @@
+<div class id="gallery"><br>
+    <div class="container">
+    <h3 class="text-center"><br>Restaurants<br><br></h3>
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+           <div class="d-flex flex-column">
+              <img src="img\2022-12-20.jpg" class="img-fluid">
+              <img src="img\20.jpeg" class="img-fluid">
+           </div>
+           <div class="d-flex flex-column">
+              <img src="img\2020-09-29.jpg" class="img-fluid">
+              <img src="img\9eaa4883a131a95beda6defab9beaf52.jpg" class="img-fluid">
+           </div>
+           <div class="d-flex flex-column">
+               <img src="img\buffet-1946541_1920.jpg" class="img-fluid">
+               <img src="img\restaurant.jpg" class="img-fluid">
+           </div>
+           <div class="d-flex flex-column">
+               <img src="img\téléchargement (8).jpeg" class="img-fluid">
+               <img src="img\0917898d2341dff053bcf75628b07f15.jpg" class="img-fluid">
+           </div>
+        </div>
+    </div>
+</div><br><br>
+
+
+<div class="form-group">
+    <label>Numéro de carte</label>
+    <input type="text" class="form-control" name="card_number" placeholder="Numéro de carte" required="required">
+    <small class="form-text text-muted">Veuillez entrer un numéro de carte valide.</small>
+</div>
+
+<div class="form-group">
+    <label>Date de validité</label>
+    <input type="text" class="form-control" name="expiry_date" placeholder="MM/YY" required="required">
+    <small class="form-text text-muted">Veuillez entrer une date de validité valide.</small>
+</div>
+
+<div class="form-group">
+    <label>CVV</label>
+    <input type="text" class="form-control" name="cvv" placeholder="CVV" required="required">
+    <small class="form-text text-muted">Veuillez entrer un code de sécurité valide.</small>
+</div>
+
+<div class="form-group">
+    <label>Prix à payer</label>
+    <input type="number" class="form-control" min="500" max="5000" name="amount_to_pay" placeholder="Prix à payer" required="required">
+    <small class="form-text text-muted">Le prix doit être compris entre 500 et 5000.</small>
+</div>
